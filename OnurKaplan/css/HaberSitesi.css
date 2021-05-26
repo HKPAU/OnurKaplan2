@@ -1,0 +1,458 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+#MainTable{
+    width: 100%;
+    height: 800px;
+    margin:0px;
+    padding: 0px;
+}
+
+#MenuBar{
+    width: 100%;
+    height: 120px;
+    margin:0px;
+    padding: 0px;
+    background-color: #004447;
+
+}
+
+
+#TVChannels{
+    width: 100%;
+    height: 150px;
+    margin:0px;
+    padding: 0px;
+}
+
+#News{
+    width: 100%;
+    height: 25px;
+    margin:0px;
+    padding: 0px;
+}
+
+
+#ContentZone{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    background-color: #004447;
+}
+
+#FooterZone{
+    width: 100%;
+    height: 120px;
+    margin:0px;
+    padding: 0px;
+}
+
+#MenuZone{
+    width: 100%;
+    height: 120px;
+    margin:0px;
+    padding: 0px;
+}
+
+#MenuItem{
+    width: 220px;
+    height: 120px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#MenuLinkAttr{
+    text-decoration: none;
+    color: black;
+}
+
+#LogoZone{
+    width: 300px;
+    height: 120px;
+    margin:0px;
+    padding: 0px;
+}
+
+.LeftClass{
+    position: absolute;
+    left: 0px;
+    text-align: left;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+    cursor: pointer;
+    bottom: 68%;
+}
+
+.RightClass{
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+    cursor: pointer;
+    bottom: 68%;
+}
+
+.LeftArrow:hover .LeftClass{
+    opacity: 0.7;
+}
+
+.RightArrow:hover .RightClass{
+    opacity: 0.7;
+}
+
+#ChannelZone1{
+    position:inherit;
+    display: block;
+    background-color: #F9F4D7;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ChannelZone2{
+    position:inherit;
+    display: none;
+    background-color: #F9F4D7;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ChannelZone3{
+    position:inherit;
+    display: none;
+    background-color: #F9F4D7;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ChannelTable{
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#ChannelName{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ChannelsLogo{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.LeftClassNews{
+    position: absolute;
+    left: 0px;
+    text-align: left;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+    cursor: pointer;
+    bottom: 57%;
+    height: 35px;
+}
+
+.RightClassNews{
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+    cursor: pointer;
+    bottom: 57%;
+    height: 35px;
+}
+
+.LeftArrowNews:hover .LeftClassNews{
+    opacity: 0.7;
+}
+
+.RightArrowNews:hover .RightClassNews{
+    opacity: 0.7;
+}
+
+#NewsZone1{
+    position:inherit;
+    display: block;
+    background-color: #E4A27E;
+    margin: 0px;
+    padding: 0px;
+}
+
+#NewsZone2{
+    position:inherit;
+    display: none;
+    background-color: #E4A27E;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#NewsTable{
+    width: 100%;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#NewsName{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#NewsLogo{
+    width: 150px;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#FooterMainTable{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #F9F4D7;
+}
+
+#FooterMainTable th{
+    border-bottom: 1px dashed black;
+    font-size: 22px;
+    font-weight: bold;
+    color: #004447;
+    width: 360px;
+}
+
+#FooterMainTable td{
+    font-size: 19px;
+    color: #004447;
+    text-align: center;
+}
+
+#FooterMainTable td a{
+    font-size: 19px;
+    color: #004447;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#MembersTable{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#MembersTD{
+    width: 650px;
+    height: 60px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #004447;
+    border-bottom: 1px dashed #004447;
+}
+
+
+#ContactsZone{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+#MembersZone{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#MemberTable{
+    width: 650px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+#MemberTable tr{
+    height: 45px;
+}
+
+
+#SignINFirstTable{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+
+#SingIN{
+    background-color: #004447;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#OzluSozSignIN{
+    color: #004447;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+    width: 900px;
+    margin: 0px;
+}
+
+#SignINForm input{
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 3px;
+    color: #004447;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#LogoAndRegistry{
+    width: 100%;
+    height: auto;
+}
+
+
+#RegisterForm input{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#RegisterForm select{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#RegisterButton{
+    width: 250px;
+    height: 40px;
+    background-color: #F9F4D7;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #004447;
+}
+
+
+#HakkimizdaMainDiv{
+    width: 100%;
+    height: 600px;
+    background-color: #004447;
+    border: 10px solid #004447;
+}
+
+
+#HakkimizdansideDiv{
+    height: 550px;
+    background-color: #F9F4D7;
+    text-align: center;
+    color: #004447;
+    border: 3px solid #004447;
+    border-radius: 25px;
+}
+
+
+#HakkimizdaContent{
+    color: #E54D48;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#GizlilikMainDiv{
+    width: 100%;
+    height: 600px;
+    background-color: #004447;
+    border: 10px solid #004447;
+}
+
+#GizlilikInsideDiv{
+    height: 550px;
+    background-color: #F9F4D7;
+    text-align: center;
+    color: #004447;
+    border: 3px solid #004447;
+    border-radius: 25px;
+}
+
+#GizlilikContent{
+    color:#E54D48;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#CalismalarimizMainTable{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F9F4D7;
+}
+
+
+#IletisimMainTable{
+    width: 100%;
+    height: auto;
+    background-color : #F9F4D7 ; 
+}
+
+
+#SorularMainTable{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    background-color: #F9F4D7;
+    border: 1px solid #004447;
+    border-radius: 15px;
+}
+
+
+#SorularIcerik{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}

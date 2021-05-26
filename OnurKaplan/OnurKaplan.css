@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#MainDiv{
+    width: 100%;
+    height: 1850px;
+    background-color: #004447;
+}
+
+
+#InsideDiv{
+    width: 100%;
+    height: 1850px;
+    background-color: #F9F4D7;
+}
+
+
+#MainTable{
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#LogoTD{
+    width: 450px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; 
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#LogoTD div{
+    border-radius: 15px;
+    border: 3px solid #004447;
+    width: 100%;
+    height: 60px;
+    padding-top: 7px;
+}
+
+
+#FirstImageDiv{
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+#SecondImageDiv{
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+#MembersTable{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#MembersTD{
+    width: 650px;
+    height: 60px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #004447;
+    border-bottom: 1px dashed #004447;
+}
+
+
+#ContactsZone{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+#MembersZone{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#MemberTable{
+    width: 650px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+#MemberTable tr{
+    height: 45px;
+}
+
+
+#SignINFirstTable{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+
+#SingIN{
+    background-color: #004447;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#OzluSozSignIN{
+    color: #004447;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+    width: 900px;
+    margin: 0px;
+}
+
+#SignINForm input{
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    padding: 3px;
+    color: #004447;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#LogoAndRegistry{
+    width: 100%;
+    height: auto;
+}
+
+
+#RegisterForm input{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#RegisterForm select{
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#RegisterButton{
+    width: 250px;
+    height: 40px;
+    background-color: #F9F4D7;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #004447;
+}
+
